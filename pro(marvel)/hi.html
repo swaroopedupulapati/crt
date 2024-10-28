@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Basic Form</title>
+</head>
+<body>
+    <h1>Simple Form</h1>
+    <form action="/submit" method="post">
+        <!-- Text input -->
+        Name:<input type="text" id="name" name="name" placeholder="Enter your name" >
+        <br>
+        <!-- Radio buttons -->
+        Gender:
+        <br>
+        <input type="radio" id="male" name="gender" value="male">Male
+        <br>
+        <input type="radio" id="female" name="gender" value="female">female
+        <br>
+        skills:<br>
+        <select id="skills" name="skills">
+            <option value="data" >data</option>
+            <option value="web" >web</option>
+        </select><br>
+        Hobbies:<br>
+
+        <input type="checkbox" name="interests" value="sports"> Sports
+        <input type="checkbox" name="interests" value="music">Music
+        <input type="checkbox" name="interests" value="travel">Travel
+        <br>
+        <!-- Submit button -->
+        <button type="submit">Submit</button>
+        <button type="reset">reset</button>
+    </form>
+</body>
+</html>

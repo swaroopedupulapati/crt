@@ -1,0 +1,42 @@
+'''class Details:
+    a=10
+    def hi(self):
+        print("hello world")
+        return 0
+    
+b=Details()
+print(b.a)
+print(b.hi())
+'''
+# protected
+'''class Details:
+    _a=10
+    def hi(self):
+        print("hello world")
+        return 0
+    
+b=Details()
+print(b._a)
+print(b.hi())'''
+
+#private
+'''class Details:
+    __a=10
+    def hi(self):
+        print("hello world")
+        return 0
+    
+b=Details()
+print(b.__a)
+print(b.hi())'''
+
+
+class actionanime:
+    a='naruto'
+    def charecters(self):
+        print(" naruto\n sasukee\n itachi \n madhara")
+        return "keshimoto"
+    
+anime=actionanime()
+print(anime.a)
+print(anime.charecters())

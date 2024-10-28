@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Animation Example</title>
+    <style>
+        /* Define the keyframes for the animation */
+        @keyframes colorSizeChange {
+            0% {
+                background-color: red;
+                width: 100px;
+                height: 100px;
+            }
+            50% {
+                background-color: yellow;
+                width: 150px;
+                height: 150px;
+            }
+            100% {
+                background-color: red;
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        /* Apply the animation to the element */
+        .animated-box {
+            width: 100px;
+            height: 100px;
+            
+            animation-name: colorSizeChange;
+            animation-duration: 5s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS3 Animation Example</h1>
+    <div class="animated-box"></div>
+</body>
+</html>
